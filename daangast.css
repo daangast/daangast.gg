@@ -7,17 +7,11 @@ body {
     margin-left: 140px;
     font-family: 'Century Gothic';
     font-size: 100px;
-}
-
-div {
-    overflow: hidden;
-}
-
-h1 {
-    animation: marquee 1.5s ease-in-out;
+    animation: marquee 2s ease-in-out;
 }
 
 @keyframes marquee {
     from {transform: translateX(-50%); }
     to {transform: translateX(0%); }
 }
+
