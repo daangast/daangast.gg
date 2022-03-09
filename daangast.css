@@ -11,13 +11,21 @@ body {
     animation: title 2.6s ease-out;
 }
 
-.page-content {
+.page-title:hover {
+    color: blue;
+}
+
+.page-caption {
     font-family: 'Century Gothic';
     font-size: 45px;
     color: black;
 
     margin-left: 180px;
     animation: text 3.1s ease-out;
+}
+
+.page-caption:hover {
+    color: blue;
 }
 
 @keyframes title {
