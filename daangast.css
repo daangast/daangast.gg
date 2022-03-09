@@ -8,24 +8,24 @@ body {
     color: black;
 
     margin-left: 140px;
-    animation: title 2s ease-in-out;
+    animation: title 2.6s ease-out;
 }
 
 .page-content {
     font-family: 'Century Gothic';
     font-size: 45px;
     color: black;
-    
+
     margin-left: 180px;
-    animation: text 3s ease-out;
+    animation: text 3.1s ease-out;
 }
 
 @keyframes title {
-    from {transform: translateX(-50%); }
+    from {transform: translateX(-60%); }
     to {transform: translateX(0%); }
 }
 
 @keyframes text {
-    from {transform: translateX(-100%); }
+    from {transform: translateX(-80%); }
     to {transform: translateX(0%); }
 }
