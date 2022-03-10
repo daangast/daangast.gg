@@ -32,8 +32,28 @@ body {
     display: inline-block;
 }
 
+.page-content {
+    font-family: 'Century Gothic';
+    font-size: 24px;
+    color: black;
+    
+    margin-left: 220px;
+}
+
+#page-center {
+    text-align: center;
+}
+
+#page-left {
+    text-align: left;
+}
+
+#page-right {
+    text-align: right;
+}
 
 
+/*
 @keyframes title {
     from {transform: translateX(-60%); }
     to {transform: translateX(0%); }
@@ -43,3 +63,4 @@ body {
     from {transform: translateX(-80%); }
     to {transform: translateX(0%); }
 }
+*/
