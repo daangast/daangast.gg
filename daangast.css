@@ -2,6 +2,10 @@ body {
     background-color: yellow;
 }
 
+.main-body {
+    animation: body-background-color 2s ease-in;
+}
+
 .page-title {
     font-family: 'Century Gothic';
     font-size: 100px;
@@ -69,7 +73,7 @@ body {
 
 .slideshow-image-1, .slideshow-image-2, .slideshow-image-3, .slideshow-image-4 {
     position: absolute;
-    border-style:
+    border-radius: 80px;
 }
 
 .slideshow-image-1 {
@@ -91,7 +95,7 @@ body {
 
 .slideshow-image-4 {
     width: 15.75%;
-    margin: 2.125% auto 2.125% 12   %;
+    margin: 2.125% auto 2.125% 12%;
     animation: slideshow-image-4 3.7s ease-out;
 }
 
@@ -135,5 +139,10 @@ body {
 @keyframes slideshow-image-4 {
     from {transform: translateX(650%); }
     to {transform: translateX(0%); }
+}
+
+@keyframes body-background-color {
+    from {background-color: black; }
+    to {background-color: yellow; }
 }
 
