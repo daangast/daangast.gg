@@ -12,7 +12,7 @@ body {
 }
 
 .page-title:hover {
-    color: blue;
+    color: rgb(92, 92, 92);
 }
 
 .page-caption {
@@ -24,8 +24,17 @@ body {
     animation: text 3.1s ease-out;
 }
 
+.page-project {
+    font-family: 'Century Gothic';
+    font-size: 36px;
+    color: black;
+
+    margin-left: 200px;
+    animation: project-text 3.3s ease-out;
+}
+
 .page-caption:hover {
-    color: blue;
+    color: rgb(92, 92, 92);
 }
 
 #daangast-social {
@@ -52,8 +61,36 @@ body {
     text-align: right;
 }
 
+.slideshow-image-1, .slideshow-image-2, .slideshow-image-3, .slideshow-image-4 {
+    position: absolute;
+    border-style:
+}
 
-/*
+.slideshow-image-1 {
+    width: 20%;
+    animation: slideshow-image-1 2.5s ease-out;
+}
+
+.slideshow-image-2 {
+    width: 18%;
+    margin: 1% auto 1% 5%;
+    animation: slideshow-image-2 2.8s ease-out;
+}
+
+.slideshow-image-3 {
+    width: 16.5%;
+    margin: 1.75% auto 1.75% 10%;
+    animation: slideshow-image-3 3.2s ease-out;
+}
+
+.slideshow-image-4 {
+    width: 15.75%;
+    margin: 2.125% auto 2.125% 15%;
+    animation: slideshow-image-4 3.7s ease-out;
+}
+
+
+
 @keyframes title {
     from {transform: translateX(-60%); }
     to {transform: translateX(0%); }
@@ -63,4 +100,29 @@ body {
     from {transform: translateX(-80%); }
     to {transform: translateX(0%); }
 }
-*/
+
+@keyframes project-text {
+    from {transform: translateX(-80%); }
+    to {transform: translateX(0%); }
+}
+
+@keyframes slideshow-image-1 {
+    from {transform: translateX(500%); }
+    to {transform: translateX(0%); }
+}
+
+@keyframes slideshow-image-2 {
+    from {transform: translateX(550%); }
+    to {transform: translateX(0%); }
+}
+
+@keyframes slideshow-image-3 {
+    from {transform: translateX(600%); }
+    to {transform: translateX(0%); }
+}
+
+@keyframes slideshow-image-4 {
+    from {transform: translateX(650%); }
+    to {transform: translateX(0%); }
+}
+
