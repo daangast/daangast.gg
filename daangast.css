@@ -80,29 +80,21 @@ body {
 
 .slideshow-image-1 {
     width: 20%;
-    animation: slideshow-image-1 2.5s ease-out;
-    transition: transform .2s;
 }
 
 .slideshow-image-2 {
     width: 18.5%;
     margin: .75% auto .75% 5%;
-    animation: slideshow-image-2 2.8s ease-out;
-    transition: transform .2s;
 }
 
 .slideshow-image-3 {
     width: 17%;
     margin: 1.5% auto 1.5% 9%;
-    animation: slideshow-image-3 3.2s ease-out;
-    transition: transform .2s;
 }
 
 .slideshow-image-4 {
     width: 15.5%;
     margin: 2.25% auto 2.25% 12%;
-    animation: slideshow-image-4 3.7s ease-out;
-    transition: transform .2s;
 }
 
 /* Animations */
@@ -127,71 +119,12 @@ body {
     to {transform: translateX(0%); }
 }
 
-@keyframes slideshow-image-1 {
-    from {transform: translateX(500%); }
-    to {transform: translateX(0%); }
-}
-
-@keyframes slideshow-image-2 {
-    from {transform: translateX(550%); }
-    to {transform: translateX(0%); }
-}
-
-@keyframes slideshow-image-3 {
-    from {transform: translateX(600%); }
-    to {transform: translateX(0%); }
-}
-
-@keyframes slideshow-image-4 {
-    from {transform: translateX(650%); }
-    to {transform: translateX(0%); }
-}
-
 @keyframes body-background-color {
     from {background-color: black; }
     to {background-color: yellow; }
 }
 
-@keyframes slideshow-image-1-pick {
-    from {transform: translateY(0%); }
-    to {transform: translateY(-10%); }
-}
-
-@keyframes slideshow-image-2-pick {
-    from {transform: translateY(0%); }
-    to {transform: translateY(-10%); }
-}
-
-@keyframes slideshow-image-3-pick {
-    from {transform: translateY(0%); }
-    to {transform: translateY(-10%); }daan
-}
-
-@keyframes slideshow-image-4-pick {
-    from {transform: translateY(0%); }
-    to {transform: translateY(-10%); }
-}
-
-.slideshow-image-1:hover, .slideshow-image-2:hover, .slideshow-image-3:hover, .slideshow-image-4:hover  {
-    transform: scale(1.05);
-}
-
-.slideshow-image-1:hover  {
-    animation: slideshow-image-1-pick .5s ease-out;
-}
-
-.slideshow-image-2:hover  {
-    animation: slideshow-image-2-pick .5s ease-out;
-}
-
-.slideshow-image-3:hover  {
-    animation: slideshow-image-3-pick .5s ease-out;
-}
-
-.slideshow-image-4:hover  {
-    animation: slideshow-image-4-pick .5s ease-out;
-}
-
+/* Button Stuff*/
 .btn {
     background-color: rgb(120, 255, 120);
     width: 150px;
